@@ -47,23 +47,33 @@ weather-dashboard/
 
 ## Setup Instructions
 1. Clone the repository:
---bash
-git clone https://github.com/paularinzee/gcp-weather-api-project.git
+```bash
+git clone https://github.com/your-username/weather-dashboard.git
+cd weather-dashboard
 
+```
 2. Create and Activate a Virtual Environment
+
+``` bash
 python -m venv env
 # On Windows:
 .\env\Scripts\activate
 # On macOS/Linux:
 source env/bin/activate
-
+```
 3. Install dependencies:
+```bash
+
 pip install -r requirements.txt
 
+```
 4. Configure environment variables (.env):
+```bash
 CopyOPENWEATHER_API_KEY=your_api_key
 GCP_BUCKET_NAME=your_gcp_bucket_name
 GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service-account.json
-
+```
 5. Run the application:
+```bash
 python src/weather_dashboard.py
+```
