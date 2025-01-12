@@ -33,6 +33,7 @@ A Python-based application to fetch real-time weather data for specified cities 
 3. **API Key for OpenWeather**:
    - Sign up at [OpenWeather](https://openweathermap.org/) and get your API key.
 
+```markdown
 ## Project Structure
 weather-dashboard/
 │
@@ -43,7 +44,7 @@ weather-dashboard/
 ├── .env                        # Environment variables
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
-
+```
 ## Setup Instructions
 1. Clone the repository:
 ```bash
